@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Filmlane</title>
+</head>
+<body>
+<header>
+    <nav>
+       <div class="logo">
+        <img src="./images/logo.svg" alt="logo">
+       </div>
+       <ul>
+        <li>HOME</li>
+        <li>MOVIE</li>
+        <li>TVSHOW</li>
+        <li>WEB SERIES</li>
+        <li>PRICING</li>
+       </ul>
+       <div class="search">
+        <ion-icon id="search" name="search-sharp"></ion-icon>
+        <ion-icon class="yellow" name="globe-sharp"></ion-icon>
+        <span>EN</span>
+        <ion-icon id="arrow" style="font-size: 0.7rem;" name="chevron-down-outline"></ion-icon>
+        <button class="btn yellowBorder" type="button">SIGN IN</button>
+       </div>
+    </nav>
+</header>
+<main>
+    <section class="hero">
+        <div class="container">
+            <h2 class="yellow">Filmlane</h2>
+            <p>Unlimited <span class="yellow">Movie</span>, <br> TVs Shows, & More.</p>
+            <ul class="info">
+                <li>
+                    <span class="pg">PG 18</span>
+                    <span class="hd">HD</span>
+                </li>
+                <li style="word-spacing: 5px;">Romance, Drama</li>
+                <li style="display:flex; align-items: center; gap: 4px;" ><ion-icon class="yellow" name="calendar-outline"></ion-icon> 2023</li>
+                <li style="display:flex; align-items: center; gap: 4px;" ><ion-icon class="yellow" name="time-outline"></ion-icon> 128 min</li>
+            </ul>
+            <button class="btn yellowBorder" type="button"><ion-icon class="playIcon" name="play"></ion-icon>WATCH NOW</button>
+        </div>
+    </section>
+    <section class="upcoming">
+        <div class="upcomingMovies">
+            
+        <h4 class="yellow">ONLINE STREAMING</h4>
+        <div class="header">
+            <h2>Upcoming Movies</h2>
+            <div class="buttons">
+                <button type="button" class="btn">Movies</button>
+                <button type="button" class="btn" style="margin-inline: 4px;">Tv Shows</button>
+                <button type="button" class="btn">Anime</button>
+            </div>
+        </div>
+        <div class="movies">
+            <div class="movie">
+                <img src="./images/upcoming-1.png" alt="">
+                <div class="movieDetailsTop">
+                    <span class="movieName">The Northman</span>
+                    <span class="yellow">2022</span>
+                </div>
+                <div class="movieDetailsBottom">
+                    <span class="hd" style="color:hsl(57, 97%, 45%);">HD</span>
+                    <span style="display:flex; align-items: center; gap: 16px;">
+                        <a href="#" style="display:flex; align-items: center; gap: 5px;"><ion-icon class="yellow" name="time-outline"></ion-icon> 137 min</a>
+                        <a href="#" style="display:flex; align-items: center; gap: 5px;"><ion-icon class="yellow" name="star"></ion-icon> 9.0</a>
+                    </span>
+                </div>
+            </div>
+            <div class="movie">
+                <img src="./images/upcoming-2.png" alt="">
+                <div class="movieDetailsTop">
+                    <span class="movieName">Doctor Strange in the Multiverse of Madness</span>
+                    <span class="yellow">2022</span>
+                </div>
+                <div class="movieDetailsBottom">
+                    <span class="hd" style="color:hsl(57, 97%, 45%);">4K</span>
+                    <span style="display:flex; align-items: center; gap: 16px;">
+                        <a href="#" style="display:flex; align-items: center; gap: 5px;"><ion-icon class="yellow" name="time-outline"></ion-icon> 137 min</a>
+                        <a href="#" style="display:flex; align-items: center; gap: 5px;"><ion-icon class="yellow" name="star"></ion-icon> 9.0</a>
+                    </span>
+                </div>
+            </div>
+            <div class="movie">
+                <img src="./images/upcoming-3.png" alt="">
+                <div class="movieDetailsTop">
+                    <span>Memory</span>
+                    <span class="yellow">2022</span>
+                </div>
+                <div class="movieDetailsBottom">
+                    <span class="hd" style="color:hsl(57, 97%, 45%);">4K</span>
+                    <span style="display:flex; align-items: center; gap: 16px;">
+                        <a href="#" style="display:flex; align-items: center; gap: 5px;"><ion-icon class="yellow" name="time-outline"></ion-icon> 137 min</a>
+                        <a href="#" style="display:flex; align-items: center; gap: 5px;"><ion-icon class="yellow" name="star"></ion-icon> 9.0</a>
+                    </span>
+                </div>
+            </div>
+            <div class="movie">
+                <img src="./images/upcoming-4.png" alt="">
+                <div class="movieDetailsTop">
+                    <span >The Unbearable Weight of Massive Talent</span>
+                    <span class="yellow">2022</span>
+                </div>
+                <div class="movieDetailsBottom">
+                    <span class="hd" style="color:hsl(57, 97%, 45%);">HD</span>
+                    <span style="display:flex; align-items: center; gap: 16px;">
+                        <a href="#" style="display:flex; align-items: center; gap: 5px;"><ion-icon class="yellow" name="time-outline"></ion-icon> 137 min</a>
+                        <a href="#" style="display:flex; align-items: center; gap: 5px;"><ion-icon class="yellow" name="star"></ion-icon> 9.0</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="servicesSection">
+        <div class="services">
+        <div class="left">
+            <div class="first" > <img src="./images/service-banner.jpg" alt=""></div>
+            <div class="second">DOWNLOAD <ion-icon name="download-outline"></ion-icon></div>
+        </div>
+        <div class="right">
+            <h4 id="title">OUR SERVICES</h4>
+            <h2>Download Your Shows <br> Watch Offline.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet debitis autem alias vel mollitia qui facilis voluptatem consequuntur laudantium! Maiores reprehenderit dicta sed repudiandae id molestiae, voluptatem voluptates nulla nobis.</p>
+            <div class="wrapper">
+                <div class="card1">
+                    <div class="icon">
+                        <ion-icon name="tv-sharp"></ion-icon>
+                    </div>
+                    <div class="text">
+                        <h4>Enjoy on your Tv</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eum blanditiis commodi.</p>
+                    </div>
+                </div>
+                <div class="card2">
+                    <div class="icon">
+                        <ion-icon name="videocam-sharp"></ion-icon>
+                    </div>
+                    <div class="text">
+                        <h4>Watch Everywhere</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eum blanditiis commodi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="topRatedSection">
+        <div class="topRatedMovies">
+            <div class="head">
+                <h4 class="yellow">ONLINE STREAMING</h4>
+                <h2>Top Rated Movies</h2>
+                <span >MOVIES</span>
+                <span >TV SHOWS</span>
+                <span >DOCUMENTARY</span>
+                <span >SERIES</span>
+            </div>
+            <div class="movies">
+                <div class="movie">
+                    <img src="./images/movie-1.png" alt="">
+                    <div class="movieDetailsTop">
+                        <span class="movieName">Sonic the Hedgehog 2</span>
+                        <span class="yellow">2022</span>
+                    </div>
+                    <div class="movieDetailsBottom">
+                        <span class="hd" style="color:hsl(57, 97%, 45%);">HD</span>
+                        <span style="display:flex; align-items: center; gap: 16px;">
+                            <a href="#" style="display:flex; align-items: center; gap: 5px;"><ion-icon class="yellow" name="time-outline"></ion-icon> 137 min</a>
+                            <a href="#" style="display:flex; align-items: center; gap: 5px;"><ion-icon class="yellow" name="star"></ion-icon> 9.0</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./images/movie-2.png" alt="">
+                    <div class="movieDetailsTop">
+                        <span class="movieName">Morbius</span>
+                        <span class="yellow">2022</span>
+                    </div>
+                    <div class="movieDetailsBottom">
+                        <span class="hd" style="color:hsl(57, 97%, 45%);">4K</span>
+                        <span style="display:flex; align-items: center; gap: 16px;">
+                            <a href="#" style="display:flex; align-items: center; gap: 5px;"><ion-icon class="yellow" name="time-outline"></ion-icon> 137 min</a>
+                            <a href="#" style="display:flex; align-items: center; gap: 5px;"><ion-icon class="yellow" name="star"></ion-icon> 9.0</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./images/movie-3.png" alt="">
+                    <div class="movieDetailsTop">
+                        <span>The Adam Project</span>
+                        <span class="yellow">2022</span>
+                    </div>
+                    <div class="movieDetailsBottom">
+                        <span class="hd" style="color:hsl(57, 97%, 45%);">4K</span>
+                        <span style="display:flex; align-items: center; gap: 16px;">
+                            <a href="#" style="display:flex; align-items: center; gap: 5px;"><ion-icon class="yellow" name="time-outline"></ion-icon> 137 min</a>
+                            <a href="#" style="display:flex; align-items: center; gap: 5px;"><ion-icon class="yellow" name="star"></ion-icon> 9.0</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./images/movie-4.png" alt="">
+                    <div class="movieDetailsTop">
+                        <span >Free Guy</span>
+                        <span class="yellow">2022</span>
+                    </div>
+                    <div class="movieDetailsBottom">
+                        <span class="hd" style="color:hsl(57, 97%, 45%);">HD</span>
+                        <span style="display:flex; align-items: center; gap: 16px;">
+                            <a href="#" style="display:flex; align-items: center; gap: 5px;"><ion-icon class="yellow" name="time-outline"></ion-icon> 137 min</a>
+                            <a href="#" style="display:flex; align-items: center; gap: 5px;"><ion-icon class="yellow" name="star"></ion-icon> 9.0</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./images/movie-5.png" alt="">
+                    <div class="movieDetailsTop">
+                        <span class="movieName">The Batman</span>
+                        <span class="yellow">2022</span>
+                    </div>
+                    <div class="movieDetailsBottom">
+                        <span class="hd" style="color:hsl(57, 97%, 45%);">HD</span>
+                        <span style="display:flex; align-items: center; gap: 16px;">
+                            <a href="#" style="display:flex; align-items: center; gap: 5px;"><ion-icon class="yellow" name="time-outline"></ion-icon> 137 min</a>
+                            <a href="#" style="display:flex; align-items: center; gap: 5px;"><ion-icon class="yellow" name="star"></ion-icon> 9.0</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./images/movie-6.png" alt="">
+                    <div class="movieDetailsTop">
+                        <span class="movieName">Uncharted</span>
+                        <span class="yellow">2022</span>
+                    </div>
+                    <div class="movieDetailsBottom">
+                        <span class="hd" style="color:hsl(57, 97%, 45%);">4K</span>
+                        <span style="display:flex; align-items: center; gap: 16px;">
+                            <a href="#" style="display:flex; align-items: center; gap: 5px;"><ion-icon class="yellow" name="time-outline"></ion-icon> 137 min</a>
+                            <a href="#" style="display:flex; align-items: center; gap: 5px;"><ion-icon class="yellow" name="star"></ion-icon> 9.0</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./images/movie-7.png" alt="">
+                    <div class="movieDetailsTop">
+                        <span>Death on the Nile</span>
+                        <span class="yellow">2022</span>
+                    </div>
+                    <div class="movieDetailsBottom">
+                        <span class="hd" style="color:hsl(57, 97%, 45%);">4K</span>
+                        <span style="display:flex; align-items: center; gap: 16px;">
+                            <a href="#" style="display:flex; align-items: center; gap: 5px;"><ion-icon class="yellow" name="time-outline"></ion-icon> 137 min</a>
+                            <a href="#" style="display:flex; align-items: center; gap: 5px;"><ion-icon class="yellow" name="star"></ion-icon> 9.0</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./images/movie-8.png" alt="">
+                    <div class="movieDetailsTop">
+                        <span >The King's Man</span>
+                        <span class="yellow">2022</span>
+                    </div>
+                    <div class="movieDetailsBottom">
+                        <span class="hd" style="color:hsl(57, 97%, 45%);">HD</span>
+                        <span style="display:flex; align-items: center; gap: 16px;">
+                            <a href="#" style="display:flex; align-items: center; gap: 5px;"><ion-icon class="yellow" name="time-outline"></ion-icon> 137 min</a>
+                            <a href="#" style="display:flex; align-items: center; gap: 5px;"><ion-icon class="yellow" name="star"></ion-icon> 9.0</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="seriesSection">
+        <div class=" series">
+            <div class="head">
+                <h4 class="yellow">BEST TV SERIES</h4>
+                <h2>World Best Tv Series</h2>
+            </div>
+            <div class="movies">
+                <div class="movie">
+                    <img src="./images/series-1.png" alt="">
+                    <div class="movieDetailsTop">
+                        <span class="movieName">Moon Knight</span>
+                        <span class="yellow">2022</span>
+                    </div>
+                    <div class="movieDetailsBottom">
+                        <span class="hd" style="color:hsl(57, 97%, 45%);">HD</span>
+                        <span style="display:flex; align-items: center; gap: 16px;">
+                            <a href="#" style="display:flex; align-items: center; gap: 5px;"><ion-icon class="yellow" name="time-outline"></ion-icon> 137 min</a>
+                            <a href="#" style="display:flex; align-items: center; gap: 5px;"><ion-icon class="yellow" name="star"></ion-icon> 9.0</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./images/series-2.png" alt="">
+                    <div class="movieDetailsTop">
+                        <span class="movieName">Halo</span>
+                        <span class="yellow">2022</span>
+                    </div>
+                    <div class="movieDetailsBottom">
+                        <span class="hd" style="color:hsl(57, 97%, 45%);">4K</span>
+                        <span style="display:flex; align-items: center; gap: 16px;">
+                            <a href="#" style="display:flex; align-items: center; gap: 5px;"><ion-icon class="yellow" name="time-outline"></ion-icon> 137 min</a>
+                            <a href="#" style="display:flex; align-items: center; gap: 5px;"><ion-icon class="yellow" name="star"></ion-icon> 9.0</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./images/series-3.png" alt="">
+                    <div class="movieDetailsTop">
+                        <span>Vikings:Valhalla</span>
+                        <span class="yellow">2022</span>
+                    </div>
+                    <div class="movieDetailsBottom">
+                        <span class="hd" style="color:hsl(57, 97%, 45%);">4K</span>
+                        <span style="display:flex; align-items: center; gap: 16px;">
+                            <a href="#" style="display:flex; align-items: center; gap: 5px;"><ion-icon class="yellow" name="time-outline"></ion-icon> 137 min</a>
+                            <a href="#" style="display:flex; align-items: center; gap: 5px;"><ion-icon class="yellow" name="star"></ion-icon> 9.0</a>
+                        </span>
+                    </div>
+                </div>
+                <div class="movie">
+                    <img src="./images/series-4.png" alt="">
+                    <div class="movieDetailsTop">
+                        <span >Money heist</span>
+                        <span class="yellow">2022</span>
+                    </div>
+                    <div class="movieDetailsBottom">
+                        <span class="hd" style="color:hsl(57, 97%, 45%);">HD</span>
+                        <span style="display:flex; align-items: center; gap: 16px;">
+                            <a href="#" style="display:flex; align-items: center; gap: 5px;"><ion-icon class="yellow" name="time-outline"></ion-icon> 137 min</a>
+                            <a href="#" style="display:flex; align-items: center; gap: 5px;"><ion-icon class="yellow" name="star"></ion-icon> 9.0</a>
+                        </span>
+                    </div>
+                </div>
+                </div>
+    </section>
+    <section class="cta">
+        <div class="membership">
+            <h2>TRIAL START FIRST 30 DAYS. <span>Enter your email to create or restart your membership.</span></h2>
+            <form>
+                <input type="email" placeholder="Enter your email">
+                <button class="btn yellow">GET STARTED</button>
+            </form>
+        </div>
+    </section>
+    <section class="endSection">
+        <div class="end">
+        <div class="topWrapper">
+            <img src="./images/logo.svg" alt="">
+            <ul class="navigation">
+                <li>HOME</li>
+                <li>MOVIE</li>
+                <li>TV SHOWS</li>
+                <li>SERIES</li>
+                <li>DOCUMENTARY</li>
+            </ul>
+        </div>
+        <div class="divider"></div>
+        <div class="bottomWrapper">
+            <ul class="moreInfo">
+                <li>FAQ</li>
+                <li>HELP CENTER</li>
+                <li>TERMS OF USE</li>
+                <li>PRIVACY</li>
+            </ul>
+            <ul class="socials">
+                <li> <a href="#"><ion-icon name="logo-facebook"></ion-icon></a> </li>
+                <li> <a href="#"><ion-icon name="logo-twitter"></ion-icon></a> </li>
+                <li> <a href="#"><ion-icon name="logo-pinterest"></ion-icon></a> </li>
+                <li> <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a> </li>
+            </ul>
+        </div>
+        </div>
+
+    </section>
+    <footer>
+        <span style="font-size: 13px; font-weight: 200;" >&copy;2023 <span class="yellow">codewithligogo</span>. All Rights Reserved</span>
+        <img src="./images/footer-bottom-img.png" alt="">
+    </footer>
+    
+</main>
+    
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>    
+</body>
+</html>
